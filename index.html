@@ -1,232 +1,220 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Яндекс</title>
-  <link rel="stylesheet" href="style.css">
-
-</head>
-<body>
-<div class="notif">
-    <div class="notif-email notif__block">
-        <div class="notif-email__titles ">
-            <p class="notif-email__titles_main notif__link" >Почта</p>
-            <p class="notif-email__titles_a notif__link">Завести почту</p>
-        </div>
-        <button class="notif-email__button">
-            Войти в почту
-        </button>
-        <p class="notif-email__plus notif__link" >
-            Получить плюс
-        </p>
-    </div>
-    <div class="notif-messenger notif__block notif__block_hover">
-        <img src="data:image/svg+xml;charset=utf8,%3Csvg%20width='24'%20height='24'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3E%3Cpath%20d='M20.953%2011.51a.822.822%200%200%200-.38-.456L6.39%203.107a.836.836%200%200%200-1.244.729v2.99l-1.074-.318a.836.836%200%200%200-.984%201.177l2.058%204.098-2.058%204.099a.836.836%200%200%200%20.984%201.176l1.074-.318v2.99a.836.836%200%200%200%201.244.73l14.182-7.948a.815.815%200%200%200%20.38-.456.82.82%200%200%200%200-.546z'%20fill='%23fff'/%3E%3Cpath%20d='M20.953%2011.51a.822.822%200%200%200-.38-.456L6.39%203.107a.836.836%200%200%200-1.244.729v2.99l15.806%204.684z'%20fill='%2398F9F9'/%3E%3Cpath%20d='M5.147%2019.73a.836.836%200%200%200%201.244.73l14.182-7.947c.18-.1.315-.262.38-.457L5.147%2016.74v2.99z'%20fill='%2310CBD1'/%3E%3Cpath%20d='M20.953%2011.51L4.073%206.508a.836.836%200%200%200-.984%201.177l2.058%204.098H21a.847.847%200%200%200-.047-.273z'%20fill='%2357E0E9'/%3E%3Cpath%20d='M5.147%2011.783l-2.058%204.099a.836.836%200%200%200%20.984%201.176l16.88-5.002a.847.847%200%200%200%20.047-.273H5.147z'%20fill='%236DEDED'/%3E%3C/svg%3E" alt="">
-        <p class="notif__link" >Мессенджер</p>
-    </div>
-    <div class="notif-coronavirus notif__block notif__block_hover">
-        <span class="notif-coronavirus__title notif__link">Коронавирус в России</span>
-        <img class="notif-coronavirus__img" src="img/coronavirus.PNG" alt="">
-    </div>
-</div>
-<div class="line headline">
-    <div class="headline__info">
-        <div class="row headline__geolink">
-            <div class="headline__svg"></div>
-            <div class="headline__city">
-                Москва
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Яндекс</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="container">
+         <div class="container__right notif">
+            <div class="notif__block notif-email ">
+               <div class="notif-email__titles ">
+                  <p class="notif-email__titles _bold _link" >Почта</p>
+                  <p class="notif-email__titles _link">Завести почту</p>
+               </div>
+               <button class="notif-email__button">
+               Войти в почту
+               </button>
+               <p class="notif-email__plus _link" >
+                  Получить плюс
+               </p>
             </div>
-        </div>
-        <span class="headline__data-time">
-            16 ноября, понедельник 00:00
-        </span>
-    </div>
-    <div class="headline-icons">
-        <div class="headline-icons__bookmarks">
-            
-        </div>
-        <div class="headline-icons__notifier">
-
-        </div>
-    </div>
-</div>
-<div class="row row-main">
-    <div class="row more-info">
-        <div class="news">
-            <div class="news__titles">
-                <a class="news__titles_main news__titles_link" href="#">Сейчас в СМИ</a>
-                <a class="news__titles_desc news__titles_link" href="#">в Москве</a>
-                <a class="news__titles_coronavirus news__titles_link" href="#">Коронавирус</a>
+            <div class="notif__block notif-messenger _hover">
+               <img src="data:image/svg+xml;charset=utf8,%3Csvg%20width='24'%20height='24'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3E%3Cpath%20d='M20.953%2011.51a.822.822%200%200%200-.38-.456L6.39%203.107a.836.836%200%200%200-1.244.729v2.99l-1.074-.318a.836.836%200%200%200-.984%201.177l2.058%204.098-2.058%204.099a.836.836%200%200%200%20.984%201.176l1.074-.318v2.99a.836.836%200%200%200%201.244.73l14.182-7.948a.815.815%200%200%200%20.38-.456.82.82%200%200%200%200-.546z'%20fill='%23fff'/%3E%3Cpath%20d='M20.953%2011.51a.822.822%200%200%200-.38-.456L6.39%203.107a.836.836%200%200%200-1.244.729v2.99l15.806%204.684z'%20fill='%2398F9F9'/%3E%3Cpath%20d='M5.147%2019.73a.836.836%200%200%200%201.244.73l14.182-7.947c.18-.1.315-.262.38-.457L5.147%2016.74v2.99z'%20fill='%2310CBD1'/%3E%3Cpath%20d='M20.953%2011.51L4.073%206.508a.836.836%200%200%200-.984%201.177l2.058%204.098H21a.847.847%200%200%200-.047-.273z'%20fill='%2357E0E9'/%3E%3Cpath%20d='M5.147%2011.783l-2.058%204.099a.836.836%200%200%200%20.984%201.176l16.88-5.002a.847.847%200%200%200%20.047-.273H5.147z'%20fill='%236DEDED'/%3E%3C/svg%3E" alt="">
+               <p class="notif-messenger__text _link" >Мессенджер</p>
             </div>
-            <div class="news__items">
-                <ul>
-                    <li class="news__item">
-                        <a class="news__link" href="#">
-                            <div class="news__icons" role="img">
-                                
-                            </div>
-                            В Молдавии обработали более 90% голосов на выборах президента
-                        </a> 
-                    </li>
-                    <li class="news__item">
-                        <a class="news__link" href="#">
-                            <div class="news__icons" role="img">
-                                
-                            </div>
-                            Ученые обнаружили убивающий коронавирус натуральный продукт
-                        </a> 
-                    </li>
-                    <li class="news__item">
-                        <a class="news__link" href="#">
-                            <div class="news__icons" role="img">
-                                
-                            </div>
-                            Глава Минтранса ушел на самоизоляцию по результатам теста на коронавирус
-                        </a> 
-                    </li>
-                    <li class="news__item">
-                        <a class="news__link" href="#">
-                            <div class="news__icons" role="img">
-                                
-                            </div>
-                            Трамп не признает победу Байдена на выборах в США
-                        </a> 
-                    </li>
-                    <li class="news__item">
-                        <a class="news__link" href="#">
-                            <div class="news__icons" role="img">
-                                
-                            </div>
-                            Пашинян назвал своих противников «скулящими под стенами»
-                        </a> 
-                    </li>
-                </ul>
+            <div class="notif__block _hover notif-coronavirus ">
+               <span class="notif-coronavirus__title _link">Коронавирус в России</span>
+               <img class="notif-coronavirus__img" src="img/coronavirus.PNG" alt="">
             </div>
-            <div class="news-currency">
-                <div class="news-currency__item">
-                    <span class="news-currency__item_type marg-right">USD</span>
-                    <span class="news-currency__item_count marg-right">76,47</span>
-                    <span class="news-currency__item_change marg-right">-0,92</span>
-                </div>
-                <div class="news-currency__item">
-                    <span class="news-currency__item_type marg-right">EUR</span>
-                    <span class="news-currency__item_count marg-right">90,49</span>
-                    <span class="news-currency__item_change marg-right">-1,09</span>
-                </div>
-                <div class="news-currency__item">
-                    <span class="news-currency__item_type marg-right">Нефть</span>
-                    <span class="news-currency__item_count marg-right">44,53</span>
-                    <span class="news-currency__item_change marg-right">+4,12%</span>
-                </div>
+         </div>
+         <div class="container__head headline">
+            <div class="headline__item">
+               <div class="headline__geolink _link">
+                  <div class="headline__svg"></div>
+                  <div class="headline__city">
+                     Москва
+                  </div>
+               </div>
+               <span class="headline__data-time">
+               16 ноября, понедельник 00:00
+               </span>
             </div>
-        </div>
-        <div class="weath-traffic">
-            <div class="weather">
-                <ul class="weath-traffic__title">
-                    <li class="weath-traffic__title_main news__titles_main">Погода</li>
-                    <li class="weath-traffic__title_desc ">Карта осадков</li>
-                </ul>
-                <div class="weath-traffic__wrapper">
-                    <div class="weath-traffic__current-info">
-                        <div class="weath-traffic__current-info_img-1">
-                            
-                        </div>
-                        <div class="weath-traffic__current-info_value">
-                            -5&deg;
-                        </div>
-                    </div>
-                    <div class="weath-traffic__current-addition">
-                        <div class="weath-traffic__current-addition_1">
-                            Ночью -7,
-                        </div>
-                        <div class="weath-traffic__current-days_morn">
-                            Утром -7
-                        </div>
-                    </div>
-                </div>
-                
+            <div class="headline__item">
+               <div class="headline__bookmarks _link">
+               </div>
+               <div class="headline__notifier _link">
+               </div>
             </div>
-            <div class="traffic">
-                <ul class="weath-traffic__title">
-                    <li class="weath-traffic__title_main news__titles_main">Пробки</li>
-                    <li class="weath-traffic__title_desc">Метро</li>
-                    <li class="weath-traffic__title_desc">Расписания</li>
-                    <li class="weath-traffic__title_desc">Такси</li>
-                </ul>
-                <div class="weath-traffic__wrapper">
-                    <div class="weath-traffic__current-info">
-                        <div class="weath-traffic__current-info_img-2">
-                            
+         </div>
+         <div class="container__wrapper">
+            <div class="container__row more-info">
+               <div class="more-info__item news">
+                  <div class="news__titles">
+                     <a class="news__subtitle _title-main _link" href="#">Сейчас в СМИ</a>
+                     <a class="news__subtitle _title-desc _link" href="#">в Москве</a>
+                     <a class="news__subtitle _title-coronavirus _link" href="#">Коронавирус</a>
+                  </div>
+                  <div class="news__items">
+                     <ul class="list-events">
+                        <li class="list-events__item">
+                           <a class="list-events__link _link" href="#">
+                              <div class="list-events__icons">
+                              </div>
+                              В Молдавии обработали более 90% голосов на выборах президента
+                           </a>
+                        </li>
+                        <li class="list-events__item">
+                           <a class="list-events__link _link" href="#">
+                              <div class="list-events__icons">
+                              </div>
+                              Ученые обнаружили убивающий коронавирус натуральный продукт
+                           </a>
+                        </li>
+                        <li class="list-events__item">
+                           <a class="list-events__link _link" href="#">
+                              <div class="list-events__icons">
+                              </div>
+                              Глава Минтранса ушел на самоизоляцию по результатам теста на коронавирус
+                           </a>
+                        </li>
+                        <li class="list-events__item">
+                           <a class="list-events__link _link" href="#">
+                              <div class="list-events__icons">
+                              </div>
+                              Трамп не признает победу Байдена на выборах в США
+                           </a>
+                        </li>
+                        <li class="list-events__item">
+                           <a class="list-events__link _link" href="#">
+                              <div class="list-events__icons">
+                              </div>
+                              Пашинян назвал своих противников «скулящими под стенами»
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="news-currency">
+                     <div class="news-currency__item">
+                        <span class="news-currency__data _currency-type _link">USD</span>
+                        <span class="news-currency__data _currency-count">76,47</span>
+                        <span class="news-currency__data _currency-change">-0,92</span>
+                     </div>
+                     <div class="news-currency__item">
+                        <span class="news-currency__data _currency-type _link">EUR</span>
+                        <span class="news-currency__data _currency-count">90,49</span>
+                        <span class="news-currency__data _currency-change">-1,09</span>
+                     </div>
+                     <div class="news-currency__item">
+                        <span class="news-currency__data _currency-type _link">Нефть</span>
+                        <span class="news-currency__data _currency-count">44,53</span>
+                        <span class="news-currency__data _currency-change">+4,12%</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="more-info__item weath-traffic">
+                  <div class="wth-traf-item weather">
+                     <ul class="wth-traf-item__title">
+                        <li class="wth-traf-item__subtitle _title-main ">Погода</li>
+                        <li class="wth-traf-item__subtitle _title-desc ">Карта осадков</li>
+                     </ul>
+                     <div class="wth-traf-item__info">
+                        <div class="wth-traf-item__current-info">
+                           <div class="wth-traf-item__img">
+                           </div>
+                           <div class="wth-traf-item__current-value">
+                              -5&deg;
+                           </div>
                         </div>
-                        <div class="weath-traffic__current-info_value">
-                            1
+                        <div class="wth-traf-item__current-addition">
+                           <div>
+                              Ночью -7,
+                           </div>
+                           <div>
+                              Утром -7
+                           </div>
                         </div>
-                    </div>
-                    <div class="weath-traffic__current-addition">
-                        <div class="weath-traffic__current-addition_1">
-                            До конца дня дороги свободны
+                     </div>
+                  </div>
+                  <div class="wth-traf-item traffic">
+                     <ul class="wth-traf-item__title">
+                        <li class="wth-traf-item__subtitle _title-main">Пробки</li>
+                        <li class="wth-traf-item__subtitle _title-desc">Метро</li>
+                        <li class="wth-traf-item__subtitle _title-desc">Расписания</li>
+                        <li class="wth-traf-item__subtitle _title-desc">Такси</li>
+                     </ul>
+                     <div class="wth-traf-item__info">
+                        <div class="wth-traf-item__current-info">
+                           <div class="wth-traf-item__img">
+                           </div>
+                           <div class="wth-traf-item__current-value">
+                              1
+                           </div>
                         </div>
-                    </div>
-                </div>
+                        <div class="wth-traf-item__current-addition">
+                           <div>
+                              До конца дня дороги свободны
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-    <div class="row row-widgets">
-        <div class="row-widgets__widget">
-            <img class="row-widgets__img" src="https://yastatic.net/s3/home/services/block/video.svg" alt="">
-            <a class="row-widgets__link" href="#">Видео</a>
-        </div>
-        <div class="row-widgets__widget">
-            <img class="row-widgets__img" src="https://yastatic.net/s3/home/services/block/kartinki.svg" alt="">
-            <a  class="row-widgets__link" href="#">Картинки</a>
-        </div>
-        <div class="row-widgets__widget">
-            <img class="row-widgets__img" src="https://yastatic.net/s3/home/services/block/news.svg" alt="">
-            <a class="row-widgets__link"  href="#">Новости</a>
-        </div>
-        <div class="row-widgets__widget">
-            <img class="row-widgets__img" src="https://yastatic.net/s3/home/services/block/maps.svg" alt="">
-            <a class="row-widgets__link"  href="#">Карты</a>
-        </div>
-        <div class="row-widgets__widget">
-            <img class="row-widgets__img" src="https://yastatic.net/s3/home/services/block/maps.svg" alt="">
-            <a class="row-widgets__link"  href="#">Маркет</a>
-        </div>
-        <div class="row-widgets__widget">
-            <img class="row-widgets__img" src="https://yastatic.net/s3/home/services/block/translate.svg" alt="">
-            <a class="row-widgets__link"  href="#">Переводчик</a>
-        </div>
-        <div class="row-widgets__widget">
-            <img class="row-widgets__img" src="https://yastatic.net/s3/home/services/block/music1.svg" alt="">
-            <a class="row-widgets__link"  href="#">Музыка</a>
-        </div>
-        <div class="row-widgets__widget">
-            <img class="row-widgets__img" src="https://yastatic.net/s3/home/services/block/tv.svg" alt="">
-            <a class="row-widgets__link"  href="#">Программа</a>
-        </div>
-        <div class="row-widgets__widget">
-            <img class="row-widgets__img" src="https://yastatic.net/s3/home/services/block/autoru.svg" alt="">
-            <a class="row-widgets__link"  href="#">Авто.ру</a>
-        </div>
-        <div class="row-widgets__widget">
-            <img class="row-widgets__img" src="https://yastatic.net/s3/home/services/block/autoru.svg" alt="">
-            <a class="row-widgets__link"  href="#">Еще</a>
-        </div>
-    </div>
-    <div class="row-search">
-        <div class="row-search__logo" role="img">
-            
-        </div>
-        <div class="row row-search__find">
-            <input class="row-search__input" type="text" placeholder="Найдётся всё">
-            <button class="row-search__button">Найти</button>
-        </div>
-    </div>
-    <div class="row-advertising">
-        
-    </div>
-</div>
-
-</body>
+            <div class="container__row widgets">
+               <div class="widget">
+                  <img class="widget__img" src="https://yastatic.net/s3/home/services/block/video.svg" alt="">
+                  <a class="widget__link _link" href="#">Видео</a>
+               </div>
+               <div class="widget">
+                  <img class="widget__img" src="https://yastatic.net/s3/home/services/block/kartinki.svg" alt="">
+                  <a  class="widget__link _link" href="#">Картинки</a>
+               </div>
+               <div class="widget">
+                  <img class="widget__img" src="https://yastatic.net/s3/home/services/block/news.svg" alt="">
+                  <a class="widget__link _link"  href="#">Новости</a>
+               </div>
+               <div class="widget">
+                  <img class="widget__img" src="https://yastatic.net/s3/home/services/block/maps.svg" alt="">
+                  <a class="widget__link _link"  href="#">Карты</a>
+               </div>
+               <div class="widget">
+                  <img class="widget__img" src="https://yastatic.net/s3/home/services/block/maps.svg" alt="">
+                  <a class="widget__link _link"  href="#">Маркет</a>
+               </div>
+               <div class="widget">
+                  <img class="widget__img" src="https://yastatic.net/s3/home/services/block/translate.svg" alt="">
+                  <a class="widget__link _link"  href="#">Переводчик</a>
+               </div>
+               <div class="widget">
+                  <img class="widget__img" src="https://yastatic.net/s3/home/services/block/music1.svg" alt="">
+                  <a class="widget__link _link"  href="#">Музыка</a>
+               </div>
+               <div class="widget">
+                  <img class="widget__img" src="https://yastatic.net/s3/home/services/block/tv.svg" alt="">
+                  <a class="widget__link _link"  href="#">Программа</a>
+               </div>
+               <div class="widget">
+                  <img class="widget__img" src="https://yastatic.net/s3/home/services/block/autoru.svg" alt="">
+                  <a class="widget__link _link"  href="#">Авто.ру</a>
+               </div>
+               <div class="widget">
+                  <img class="widget__img" src="https://yastatic.net/s3/home/services/block/autoru.svg" alt="">
+                  <a class="widget__link _link"  href="#">Еще</a>
+               </div>
+            </div>
+            <div class="container__row search">
+               <div class="search__logo" role="img">
+               </div>
+               <div class="search-find">
+                  <input class="search-find__input" type="text" placeholder="Найдётся всё">
+                  <button class="search-find__button">Найти</button>
+               </div>
+            </div>
+            <div class="container__row advertising">
+            </div>
+         </div>
+      </div>
+   </body>
 </html>
