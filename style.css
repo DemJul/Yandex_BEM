@@ -289,7 +289,7 @@
 	background-image: url(https://yastatic.net/s3/home-static/2020-11-16-0/common/blocks/weather-icons/general/skc-n.png);
 }
 
-.wth-traf-item__img:nth-child(2) {
+.wth-traf-item__img-traffic {
 	background-image: url(https://yastatic.net/s3/home-static/_/W/6/3iKv0HwMyq3LM_iMXrpDbLZkM.svg);
 	background-repeat: no-repeat;
 	background-position: center;
